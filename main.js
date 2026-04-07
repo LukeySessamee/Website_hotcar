@@ -1,4 +1,4 @@
-const word = "I hate every ape I see from champanA to chimpanzee";
+const word = "Eat some soil";
 let index = 0;
 
 const box = document.getElementById("box");
