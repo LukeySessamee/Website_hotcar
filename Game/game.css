@@ -54,7 +54,7 @@ p {
 
 /* player when powered up */
 #player.powered {
-  background-image: url("../Assets/Images/Rewards/crazy_cat.jpg");
+  background-image: url("C:\\Projects-Local\\Website_F\\Assets\\Images\\oven_cat.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
