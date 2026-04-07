@@ -1,13 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #41d958;
+  background: linear-gradient(0deg, #808040 0%, #00ff80 66%);
   margin: 0;
   padding: 20px;
 }
 
 h1 {
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #2bb6b2;
 }
 
 p {
@@ -25,6 +26,7 @@ h2 {
   padding: 10px;
   font-size: 18px;
   resize: none;
+  border: 11px groove #837c7c;;
 }
 
 button {
