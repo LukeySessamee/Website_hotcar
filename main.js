@@ -1,4 +1,4 @@
-const word = "Good Bye";
+const word = "Dingus";
 let index = 0;
 
 const box = document.getElementById("box");
