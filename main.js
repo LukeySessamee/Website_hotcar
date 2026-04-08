@@ -1,4 +1,4 @@
-const word = "Dingus";
+const word = "Good Bye";
 let index = 0;
 
 const box = document.getElementById("box");
@@ -8,6 +8,8 @@ const counter = document.getElementById("count");
 const reward1 = document.getElementById("reward1");
 const reward2 = document.getElementById("reward2");
 const reward3 = document.getElementById("reward3");
+const reward4 = document.getElementById("reward4");
+const reward5 = document.getElementById("reward5");
 
 let count = 0;
 let lastSeenCount = 0;
@@ -27,6 +29,8 @@ function updateRewards(displayedCount) {
   reward1.style.display = displayedCount >= 10 ? "block" : "none";
   reward2.style.display = displayedCount >= 25 ? "block" : "none";
   reward3.style.display = displayedCount >= 50 ? "block" : "none";
+  reward4.style.display = displayedCount >= 100 ? "block" : "none";
+  reward5.style.display = displayedCount >= 200 ? "block" : "none";
 }
 
 function updateDisplayInstant(displayedCount) {
